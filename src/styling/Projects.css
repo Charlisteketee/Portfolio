@@ -1,0 +1,13 @@
+.projects {
+  padding: 2rem;
+}
+
+.projects h3 {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.project-video {
+  width: 100%;
+  border-radius: 8px;
+}
