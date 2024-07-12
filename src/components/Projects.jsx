@@ -11,20 +11,35 @@ const projects = [
     videoUrl: "/images/schmovies.mp4",
   },
   {
-    title: "",
-    description: "",
-    videoUrl: "",
+    title: "PhotoLabs",
+    description: `Welcome to PhotoLabs, a captivating single-page application (SPA) designed to immerse users in the world of photography. Built with React, PhotoLabs offers a sleek and intuitive interface that showcases stunning photographs from around the globe. Its primary focus is to provide users with a visually appealing and easy-to-navigate platform to discover and appreciate photography in its purest form.
+
+    Key Features
+    Photograph Gallery: Dive into a vast collection of high-quality images, carefully selected to inspire and delight users.
+    Dark Mode: Enhance your browsing experience with a beautifully designed dark theme that reduces eye strain and adds a touch of sophistication.
+    Like Feature: Engage with your favorite photos by liking them. Your interactions contribute to a vibrant community of photo enthusiasts.
+    API Integration: PhotoLabs demonstrates the power of integrating external APIs, showcasing how to fetch and display dynamic content seamlessly.`,
+    videoUrl: "/images/photolabs.mp4",
   },
   {
-    title: "",
-    description: "",
-    videoUrl: "",
+    title: "Jungle",
+    description: `Welcome to Jungle, a meticulously crafted e-commerce application designed to serve as a practical learning tool for aspiring developers interested in mastering the intricacies of Ruby on Rails. Built with Rails 6.1, this mini e-commerce platform encapsulates essential concepts and best practices in web development, offering a hands-on approach to understanding how real-world applications are structured and operate.
+    Stripe was utilized for secure payment processing to test the checkout process functionalities. Additionally, we utilized Cypress for test-driven development, emphasizing the importance of automated testing in software development.
+    Dependencies
+    Jungle relies on the following technologies:
+
+    Ruby on Rails 6.1: The core framework powering the application.
+    Bootstrap 5: For styling and layout.
+    PostgreSQL 9.x: The database system used to store application data.
+    Stripe: Handles payment processing securely.`,
+    videoUrl: "/images/jungle-rails.mp4",
   },
-  {
-    title: "",
-    description: "",
-    videoUrl: "",
-  }
+
+  // {
+  //   title: "",
+  //   description: "",
+  //   videoUrl: "",
+  // }
 ];
 
 

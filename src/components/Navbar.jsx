@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../styling/Navbar.css';
 
 const Navbar = () => {
@@ -7,12 +8,16 @@ const Navbar = () => {
       <header className="navbar">
         <div className="navbar-left">
           <img src="/images/Profile.jpg" alt="Profile" className="profile-img"></img>
-          <h1>Charli Steketee</h1>
+          <div className="titles">
+            <h1>Charli Steketee</h1>
+            <h3>Full-Stack Web Developer</h3>
+          </div>
         </div>
         
         <nav className="navbar-right">
-          <a href="#about">About  </a>
-          <a href="#contact"> Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </nav>
       </header>
     </div>
