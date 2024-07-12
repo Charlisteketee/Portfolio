@@ -1,0 +1,21 @@
+.h1 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+}
+
+.project-link {
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+
+.project-btn {
+  display: inline-block;
+  background-color: black;
+  color: lightseagreen;
+  border: 1px solid lightseagreen;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}

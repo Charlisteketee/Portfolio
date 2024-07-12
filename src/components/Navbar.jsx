@@ -9,15 +9,16 @@ const Navbar = () => {
         <div className="navbar-left">
           <img src="/images/Profile.jpg" alt="Profile" className="profile-img"></img>
           <div className="titles">
-            <h1>Charli Steketee</h1>
-            <h3>Full-Stack Web Developer</h3>
+            <h1>CHARLI STEKETEE</h1>
+            {/* <h3>Full-Stack Web Developer</h3> */}
           </div>
         </div>
         
         <nav className="navbar-right">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/" className="custom-link">Home</Link>
+          <Link to="/projects" className="custom-link">Projects</Link>
+          <Link to="/about" className="custom-link">About</Link>
+          <Link to="/contact" className="custom-link">Contact</Link>
         </nav>
       </header>
     </div>

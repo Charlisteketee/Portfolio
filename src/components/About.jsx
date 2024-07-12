@@ -15,9 +15,13 @@ const About = () => {
 
         <p>Thank you for visiting my site. I hope you enjoy exploring my projects as much as I enjoyed creating them.</p>
 
-        <p>Visit My GitHub Page:</p>
+        <p>
+          Visit My <a href="https://github.com/Charlisteketee" target="_blank" rel="noopener noreferrer" className="custom-link">GitHub</a>
+        </p>
 
-        <p>Or my LinkedIn:</p>
+        <p>
+          Or my <a href="https://www.linkedin.com/in/charli-steketee/" target="_blank" rel="noopener noreferrer" className="custom-link">LinkedIn</a>
+        </p>
       </p>
     </div>
   );
