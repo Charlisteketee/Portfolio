@@ -66,6 +66,9 @@ const Projects = () => {
             <video controls className="project-video">
               <source src={project.videoUrl} type="video/mp4" />
             </video>
+            <div>
+              <p>See more of my work on my <a href="https://github.com/Charlisteketee" target="_blank" rel="noopener noreferrer" className="custom-link">GitHub</a></p>
+            </div>
           </div>
         ))}
       </div>
