@@ -1,5 +1,6 @@
 .projects {
-  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .project-card p {
@@ -7,6 +8,7 @@
   flex-direction: column;
   max-height: 60px;
   overflow: hidden;
+  
 }
 
 .project-card p.show-more {
@@ -22,6 +24,20 @@
 .project-video {
   width: 100%;
   border-radius: 12px;
-  padding: 1rem;
-  border-color: black;
+  border: 1px solid white; /* Add a solid border */
+  padding: 1rem; /* Ensure padding is not added to the video element itself */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: black;
+  color: lightseagreen;
+  border: 1px solid lightseagreen;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
 }
