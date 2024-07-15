@@ -8,7 +8,7 @@ const projects = [
     For authorized users who have found their next watch, MovieFinder offers a dedicated space to save your favorite movies.
 
     Built with a modern tech stack, MovieFinder leverages the power of ReactJS for its dynamic frontend, delivering a smooth and responsive user interface. The backend is powered by Django, a high-level Python web framework, which efficiently handles requests and manages data flow between the client and the server. To store and manage all the cinematic data, MovieFinder utilizes PostgreSQL, a powerful, open-source object-relational database system.`,
-    videoUrl: "/images/schmovies.mp4",
+    videoUrl: `${process.env.PUBLIC_URL}/images/schmovies.mp4`,
   },
   {
     title: "PhotoLabs",
@@ -19,7 +19,7 @@ const projects = [
     Dark Mode: Enhance your browsing experience with a beautifully designed dark theme that reduces eye strain and adds a touch of sophistication.
     Like Feature: Engage with your favorite photos by liking them. Your interactions contribute to a vibrant community of photo enthusiasts.
     API Integration: PhotoLabs demonstrates the power of integrating external APIs, showcasing how to fetch and display dynamic content seamlessly.`,
-    videoUrl: "/images/photolabs.mp4",
+    videoUrl: `${process.env.PUBLIC_URL}/images/photolabs.mp4`,
   },
   {
     title: "Jungle",
@@ -32,14 +32,8 @@ const projects = [
     Bootstrap 5: For styling and layout.
     PostgreSQL 9.x: The database system used to store application data.
     Stripe: Handles payment processing securely.`,
-    videoUrl: "/images/jungle-rails.mp4",
+    videoUrl: `${process.env.PUBLIC_URL}/images/jungle-rails.mp4`,
   },
-
-  // {
-  //   title: "",
-  //   description: "",
-  //   videoUrl: "",
-  // }
 ];
 
 
@@ -66,11 +60,11 @@ const Projects = () => {
             <video controls className="project-video">
               <source src={project.videoUrl} type="video/mp4" />
             </video>
-            <div>
-              <p>See more of my work on my <a href="https://github.com/Charlisteketee" target="_blank" rel="noopener noreferrer" className="custom-link">GitHub</a></p>
-            </div>
           </div>
         ))}
+      </div>
+      <div>
+        <p>See more of my work on my <a href="https://github.com/Charlisteketee" target="_blank" rel="noopener noreferrer" className="custom-link">GitHub</a></p>
       </div>
     </section>
   );

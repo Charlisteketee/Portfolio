@@ -7,10 +7,9 @@ const Navbar = () => {
     <div>
       <header className="navbar">
         <div className="navbar-left">
-          <img src="/images/Profile.jpg" alt="Profile" className="profile-img"></img>
+        <img src={`${process.env.PUBLIC_URL}/images/Profile.jpg`} alt="Profile" className="profile-img" />
           <div className="titles">
             <h1>CHARLI STEKETEE</h1>
-            {/* <h3>Full-Stack Web Developer</h3> */}
           </div>
         </div>
         
