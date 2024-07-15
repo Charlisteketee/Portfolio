@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Charlisteketee/Portfolio/static/css/main.5df1abb4.css",
-    "main.js": "/Charlisteketee/Portfolio/static/js/main.c716c773.js",
-    "static/js/453.1407b060.chunk.js": "/Charlisteketee/Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/abstract-digital-grid-black-background.jpg": "/Charlisteketee/Portfolio/static/media/abstract-digital-grid-black-background.0d6c387198112f922782.jpg",
-    "index.html": "/Charlisteketee/Portfolio/index.html",
-    "main.5df1abb4.css.map": "/Charlisteketee/Portfolio/static/css/main.5df1abb4.css.map",
-    "main.c716c773.js.map": "/Charlisteketee/Portfolio/static/js/main.c716c773.js.map",
-    "453.1407b060.chunk.js.map": "/Charlisteketee/Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.42179693.css",
+    "main.js": "/Portfolio/static/js/main.28e3537f.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/abstract-digital-grid-black-background.jpg": "/Portfolio/static/media/abstract-digital-grid-black-background.0d6c387198112f922782.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.42179693.css.map": "/Portfolio/static/css/main.42179693.css.map",
+    "main.28e3537f.js.map": "/Portfolio/static/js/main.28e3537f.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df1abb4.css",
-    "static/js/main.c716c773.js"
+    "static/css/main.42179693.css",
+    "static/js/main.28e3537f.js"
   ]
 }
